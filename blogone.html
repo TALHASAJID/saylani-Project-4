@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saylani Project 4</title>
+  <style type="text/css">
+    body{
+      background-color: #FAFAFA !important;
+    }
+    .blog:hover{color: #d9834a !important;}
+    @media only screen and (max-width: 253px){
+      .xamper{
+        width: 100% !important;
+        height: 250px !important;
+      }
+    }
+    @media only screen and (max-width: 1125px){
+      .shamps{
+        width: 100% !important;
+        height: 7700px !important;
+      }
+    }
+    @media only screen and (max-width: 992px){
+      .shamps{
+        width: 100% !important;
+        height: 8200px !important;
+      }
+    }
+    @media only screen and (max-width: 767px){
+      .shamps{
+        width: 100% !important;
+        height: 9000px !important;
+      }
+    }
+    @media only screen and (max-width: 541px){
+      .shamps{
+        height: 9250px !important;
+        width: 100% !important;
+      }
+    }
+    @media only screen and (max-width: 500px){
+      .shamps{
+        height: 9400px !important;
+        width: 100% !important;
+      }
+    }
+    @media only screen and (max-width: 477px){
+      .shamps{
+        height: 9600px !important;
+        width: 100% !important;
+      }
+    }
+    @media only screen and (max-width: 466px){
+      .shamps{
+        height: 9800px !important;
+        width: 100% !important;
+      }
+    }
+    @media only screen and (max-width: 441px){
+      .shamps{
+        height: 10000px !important;
+        width: 100% !important;
+      }
+    }
+    @media only screen and (max-width: 419px){
+      .shamps{
+        height: 10200px !important;
+        width: 100% !important;
+      }
+    }
+    @media only screen and (max-width: 402px){
+      .shamps{
+        height: 10400px !important;
+        width: 100% !important;
+      }
+    }
+    @media only screen and (max-width: 390px){
+      .shamps{
+        height: 10800px !important;
+        width: 100% !important;
+      }
+    }
+    @media only screen and (max-width: 363px){
+      .shamps{
+        height: 11200px !important;
+        width: 100% !important;
+      }
+    }
+    @media only screen and (max-width: 337px){
+      .shamps{
+        height: 11600px !important;
+        width: 100% !important;
+      }
+    }
+    @media only screen and (max-width: 317px){
+      .shamps{
+        height: 12000px !important;
+        width: 100% !important;
+      }
+    }
+    @media only screen and (max-width: 305px){
+      .shamps{
+        height: 12600px !important;
+        width: 100% !important;
+      }
+    }
+    @media only screen and (max-width: 282px){
+      .shamps{
+        height: 13200px !important;
+        width: 100% !important;
+      }
+    }
+    @media only screen and (max-width: 264px){
+      .shamps{
+        height: 13600px !important;
+        width: 100% !important;
+      }
+    }
+    @media only screen and (max-width: 253px){
+      .shamps{
+        height: 14000px !important;
+        width: 100% !important;
+      }
+    }
+    @media only screen and (max-width: 245px){
+      .shamps{
+        height: 14400px !important;
+        width: 100% !important;
+      }
+    }
+    @media only screen and (max-width: 370px){
+      .candle{
+        font-size: 30px;
+      }
+    }
+    @media only screen and (max-width: 275px){
+      .candle{
+        font-size: 25px;
+      }
+    }
+    @media only screen and (max-width: 332px){
+      .wax{
+        font-size: 10px;
+      }
+    }
+    @media only screen and (max-width: 522px){
+      .pik{
+        width: 480px !important;
+      }
+    }
+    @media only screen and (max-width: 515px){
+      .pik{
+        width: 480px !important;
+      }
+    }
+    @media only screen and (max-width: 513px){
+      .pik{
+        width: 450px !important;
+      }
+    }
+    @media only screen and (max-width: 500px){
+      .pik{
+        width: 450px !important;
+      }
+    }
+    @media only screen and (max-width: 485px){
+      .pik{
+        width: 430px !important;
+      }
+    }
+    @media only screen and (max-width: 474px){
+      .pik{
+        width: 400px !important;
+      }
+    }
+    @media only screen and (max-width: 433px){
+      .pik{
+        width: 350px !important;
+      }
+    }
+    @media only screen and (max-width: 383px){
+      .pik{
+        width: 300px !important;
+      }
+    }
+    @media only screen and (max-width: 333px){
+      .pik{
+        width: 250px !important;
+      }
+    }
+    @media only screen and (max-width: 282px){
+      .pik{
+        width: 200px !important;
+      }
+    }
+  </style>
+  <link rel="icon" type="image" href="BG logo.jpg">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light ">
+  <a class="navbar-brand" href="#"><img src="BG logo.jpg" width="50px" height="50px"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          UNSTITCHED
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">SUMMER PPREMIUM COLLECTION</a>
+          <a class="dropdown-item" href="#">SUMMER BASIC COLLECTION</a>
+          <a class="dropdown-item" href="#">WINTER PREMIUM COLLECTION</a>
+          <a class="dropdown-item" href="#">WINTER BASIC COLLECTION</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          WOMEN
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">TOP</a>
+          <a class="dropdown-item" href="#">BOTTOM</a>
+          <a class="dropdown-item" href="#">SHAWLS/STOLES</a>
+          <a class="dropdown-item" href="#">SUITS</a>
+          <a class="dropdown-item" href="#">FORMALS</a>
+          <a class="dropdown-item" href="#">TROUSERS</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          ACCESORIES
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">SHAWLS</a>
+          <a class="dropdown-item" href="#">BAGS</a>
+          <a class="dropdown-item" href="#">CLUTCH</a>
+          <a class="dropdown-item" href="#">FOOTWEAR</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          MEN
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">KURTA</a>
+          <a class="dropdown-item" href="#">SUITS</a>
+          <a class="dropdown-item" href="#">DRESS SHIRTS</a>
+          <a class="dropdown-item" href="#">DRESS PANTS</a>
+          <a class="dropdown-item" href="#">SWEATERS</a>
+          <a class="dropdown-item" href="#">JACKETS</a>
+          <a class="dropdown-item" href="#">TROUSERS</a>
+          <a class="dropdown-item" href="#">POLOS</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          KIDS
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">SWEATERS</a>
+          <a class="dropdown-item" href="#">TOPS</a>
+          <a class="dropdown-item" href="#">PANTS</a>
+          <a class="dropdown-item" href="#">SHIRTS</a>
+          <a class="dropdown-item" href="#">TROUSERS</a>
+          <a class="dropdown-item" href="#">KURTA</a>
+          <a class="dropdown-item" href="#">SUITS</a>
+        </div>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav><br><br>
+<div class="container">
+  <h2>How to buy Bathrobes?</h2>
+</div><br>
+<div class="container shamps" style="border:1px solid #e8e7e7; background-color: #fff; width: 1220px; height: 7400px;">
+  <div class="row">
+    <div class="col-md-12 col-sm-12 col-lg-12"><br>
+      <center><img src="blog1.jpg" class="pik" alt="Blog_image"></center><br>
+      <h6><strong>Categories:</strong> <span><a href="index.html" class="text-muted" style="text-decoration: none;">Bold Garments Fashion</a></span></h6>
+      <p style="font-size: 18px;">For the days when getting out of bed and dressing up feels like too much work, donning a bathrobe gives you a chance to relish those in-between moments in life when you’re transitioning from one activity to another, when you’re neither coming nor going. So, it doesn't feel like such a bad idea to have one hanging in your bath closet for whenever and wherever you need one.</p>
+    <p style="font-size: 18px;">If you are ready to get your hands on the latest comfy bath wear, continue to read to get answers to all your questions regarding buying a bathrobe for yourself.</p><br>
+      <center><img src="blog2.jpg" class="pik" width="500px" height="500px"></center><br>
+      <h5><strong>What Are the Benefits of Having a Quality Bathrobe?</strong></h5>
+      <p style="font-size: 18px;">Once you’ve invested in the right bathrobe for yourself, there’s no turning back to a life without one. So, let’s get started.</p>
+      <h5><strong>Absorbency</strong></h5>
+      <p style="font-size: 18px;">Bathrobes are made from absorbent materials such as cotton that function just like a towel when you step out of the bath or shower and offer an easy way to dry your entire body while you’re wrapped in comfort.</p>
+      <h5><strong>Comfort</strong></h5>
+      <p style="font-size: 18px;">Talking about comfort, slipping into a bathrobe is like a warm hug, which is probably one of the more popular reasons people enjoy having a bathrobe. Made from super absorbent yet breathable cotton yarn, bathrobes have the ability to immediately lift up your mood after a tough day at work. It is the kind of uniform you wear when it’s time to practice some self-care.</p>
+      <h5><strong>Warmth</strong></h5>
+      <p style="font-size: 18px;">Everyone enjoys a nice hot shower, right? But what one does not look forward to the three-second-shiver that runs down your spine when you step out of one. After a hot shower, staying cozy requires a bathrobe to dry off and warm up. A thick bathrobe will help to keep the chill breeze out and body temperatures stable.</p>
+      <h5><strong>Style</strong></h5>
+      <p style="font-size: 18px;">This bath wear staple is far too chic to be confined to the bedroom. A bathrobe makes for a very understated style statement. IDEAS Home classic white bathrobes make for an attractive look for all genders, ages, body types and backgrounds.</p>
+      <h5><strong>Ease</strong></h5>
+      <p style="font-size: 18px;">Bathrobes are comfort wear that you never thought you needed until you tried one. It is extremely easy to slip into your bathrobe in the mornings or after a hot shower at night, and with a simple belt to wrap around and secure you it’s even more convenient than anything else you might have in your closet.</p><br>
+      <center><img src="blog3.jpg" class="pik" width="500px" height="500px"></center><br>
+      <h5><strong>Is It Necessary to Have a Bathrobe When You Have Towels?</strong></h5>
+      <p style="font-size: 18px;">A bathrobe from IDEAS Home is a great alternative to a towel when you’ve been caught in a rainstorm and need to dry off and warm up.</p>
+      <p style="font-size: 18px;">Nothing quite like a good summer swim, right? Well then, with the season next in line, you must be gearing up for frequent dips in the pool. But have you ever gone swimming and forgotten your bath towel to dry off with? Small hand towels don’t work nearly as well as a bathrobe does. When heading out to the beach a bathrobe can also serve as a cozy swimsuit cover-up.</p><br>
+      <center><img src="blog4.jpg" class="pik" width="500px" height="500px"></center><br>
+      <h5><strong>Do Bathrobes Make for Thoughtful Wedding Gifts?</strong></h5>
+      <p style="font-size: 18px;">Toasters, coffee makers, frames, silverware all make for great wedding presents. However, over the years, these items have become redundant. Why not surprise your newlywed friends with a unique, yet very practical wedding present!</p>
+      <p style="font-size: 18px;">Shop IDEAS Home bridal gift pack sets. The exquisite gift set includes a bathrobe, a bath towel and a hand towel. This functional, yet cute gift package will surely land in your friend’s honeymoon starter pack.</p><br>
+      <center><img src="blog5.jpg" class="pik" width="500px" height="500px"></center><br>
+      <h5><strong>What Are the Features to Look for in The Best Bathrobe?</strong></h5>
+      <p style="font-size: 18px;">You need to consider all the possible features before finding a bathrobe that’s a perfect fit for you. The perfect one should be absorbent, form fitting, breathable and depending on the time of year, either light as a breeze or cozy as a blanket.</p>
+      <h5><strong>Material</strong></h5>
+      <p style="font-size: 18px;">The best material for a bathrobe depends on how you want to wear it. IDEAS Home understands how materials influence the bathrobe buying decisions. So, let’s check out the variety of bathrobes we have to offer.</p>
+      <h5><strong>Combed Bathrobe:</strong></h5>
+      <p style="font-size: 18px;">A long staple combed cotton bathrobe is super comfortable and highly absorbent. As the name suggests, combed cotton has literally been "combed" to remove shorter threads that stick out and prickle. This process makes the bathrobe ultra-soft to touch.</p>
+      <h5><strong>Carded Bathrobe:</strong></h5>
+      <p style="font-size: 18px;">Cotton Terry is a woven fabric comprising long loops that can absorb ample amounts of water. Carded bathrobes are thick and heavy. So, this material is best used for robes meant to absorb moisture and keep warm.</p><br>
+      <center><img src="blog6.jpg" class="pik" width="500px" height="500px"></center><br>
+      <h5><strong>Size</strong></h5>
+      <p style="font-size: 18px;">The best bathrobes are the ones that fit your body (without sliding off your shoulders or requiring you to adjust the belt all the time), but also allows you to move freely and lounge. The size of a bathrobe usually refers to two things: the waist and the length. IDEAS Home has sizes ranging from extra small to extra-large, one for every body type. Bathrobes and poncho towels for kids are also available in fun and exciting colors and designs.</p><br>
+      <center><img src="blog7.jpg" class="pik" width="500px" height="500px"></center><br>
+      <p style="font-size: 18px;">Make sure you check the exact specification of the bathrobe you wish to purchase from the size chart available on the related product page. All bathrobes at IDEAS Home are unisex.</p>
+      <p style="font-size: 18px;">PRO TIP: Regardless of the type of bathrobe you intend to buy, give it a 2 to 4inch margin to the body measurements you have to make sure that the robe gives freedom of movement and body comfort.</p>
+      <h5><strong>THICKNESS</strong></h5>
+      <p style="font-size: 18px;">The thickness of a bathrobe is an important feature to consider before making your purchase decision. Some people prefer a thick robe whereas others might be of the opinion that the thinner the better. A thicker robe will help you keep warm whereas a lightweight robe is ideal to stay covered and comfortable.</p>
+      <p style="font-size: 18px;">You might argue that above everything else, bathrobes are essentially made to help one dry off. And one shall be correct! Hang your bathrobes on a drying rack or out under the sun for quick drying.</p><br>
+      <center><img src="blog8.jpg" class="pik" width="500px" height="500px"></center><br>
+      <h5><strong>Design</strong></h5>
+      <p style="font-size: 18px;">After choosing the appropriate thickness, you now have the difficult decision of choosing the design of your bathrobe. In majority cases, this can be influenced by weather. However, in most cases, the choice is based purely on personal preference</p>
+      <p style="font-size: 18px;">The waist and collar of a bathrobe are the two main design features to look out for. IDEAS Home creates robes with front patch pockets and full shawl colar which bring an elegant look to your after-shower style. All robes come with a belt which ties around looped holes through the waist, ensuring it to fit all different sizes.</p>
+      <h5><strong>Time to pick your Bathrobe?</strong></h5>
+      <p style="font-size: 18px;">So, here’s our final verdict! If keeping yourself dry is the reason you will buy a bathrobe then choose a carded one. If you want to use a robe as loungewear, opt for a combed bathrobe which apart from being absorbent, is also ultra-soft and fluffy.</p>
+      <center><img src="blog9.jpg" class="pik" width="500px" height="500px"></center><br><br>
+      <a href="blogtwo.html" class="text-muted blog" style="text-decoration: none; float: right;">Next</a>
+    </div>
+  </div>
+</div><br><br>
+<div class="container-fluid xamper" style="background-color: #fce0dd; height: 185px; justify-content: center;">
+  <h1 class="candle" style="font-family: helvatica;padding-top: 15px;"><center>SUBSCRIBE NOW</center></h1>
+  <p style="color: #666267; font-weight: 100;"><small style=" font-family: Lucida Sans Unicode;" class="wax"><center>Join BoldGarments and get all the latest news, trends and offers straight to your inbox</center></small></p>
+  <center><i class="fa fa-envelope icon"></i><input class="input-field" type="email" name="" placeholder="Enter your Email address"><button class="last">SUBSCRIBE</button><!--<button type="button" class="btn btn-dark">SUBSCRIBE</button>--></center>
+</div>
+<div class="container-fluid">
+  <div>
+    <center><img src="BG logo.jpg" width="200px" height="200px" style="margin: 20px 0px 0px 0px;"></center>
+  </div>
+  <center>
+    <div class="bottom-links">
+  <ul>
+    <li><a href="www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+    <li><a href="www.instagram.com"><i class="fa fa-instagram"></i></a></li>  
+    <li><a href="www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+    <li><a href="www.youtube.com"><i class="fa fa-youtube"></i></a></li>
+    <li><a href="www.google.com"><i class="fa fa-google"></i></a></li>
+  </ul>
+  </div>
+  </center><br><br><br>
+  <div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <strong>About Boldgarments</strong><br><br>
+      <a href="#" class="blinks">About Us</a><br><br>
+      <a href="#" class="blinks">Company</a><br><br>
+      <a href="#" class="blinks">Careers</a><br><br>
+      <a href="#" class="blinks">Store Locator</a>
+    </div>
+    <div class="col-sm">
+      <strong>My Account</strong><br><br>
+      <a href="#" class="blinks">Login</a><br><br>
+      <a href="#" class="blinks">Order History</a><br><br>
+      <a href="#" class="blinks">Order Status</a><br><br>
+    </div>
+    <div class="col-sm">
+      <strong>Customer Care</strong><br><br>
+      <a href="contact.html" class="blinks">Contact Us</a><br><br>
+      <a href="#" class="blinks">FAQ</a><br><br>
+      <a href="#" class="blinks">Shipping Policy</a><br><br>
+      <a href="#" class="blinks">Return & Exchange Policy</a><br><br>
+      <a href="#" class="blinks">Privacy Policy</a><br><br>
+    </div>
+  </div>
+</div>  
+<footer>
+  <div class="container-fluid" style="background-color: #282828; height: 90px;color: #fff;padding-top: 40px;">
+  © Bold Garments Textile Mills.
+  </div>
+</footer>
+</div>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
